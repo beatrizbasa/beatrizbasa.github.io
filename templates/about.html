@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Beatriz Basa</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7528702e77.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../static/styles.css?VERSION=44" />
+  <style> 
+    .w3-third img{
+      margin-bottom: -6px; opacity: 0.8; cursor: pointer
+    } 
+
+    i:hover{  
+      color: #F9977B !important; 
+      -webkit-transition: ease-out 0.4s;
+      -moz-transition: ease-out 0.4s;
+      transition: ease-out 0.4s;
+    }
+  </style>
+</head>
+<body class=" w3-content" style="max-width:1600px"> 
+  {% include 'navbar.html' %}  
+ 
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+ 
+  <div class="w3-main" style="margin-left:300px"> 
+    <div class="w3-hide-large" style="margin-top:83px"></div>  
+    
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+      <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+      </div>
+    </div> 
+  
+    <div class="w3-container w3-center w3-padding-32" id="about" style="background-color: white; ; margin-top: 2rem; ">  
+      <div class="row" id="otherprojectsdiv" style="padding: 0rem 4rem 0rem 4rem;">
+        <div class="col-12"  >
+          <h1 class="heading" style="font-weight: 800; color: #F9977B; float: left;">ABOUT ME</h1>  
+        </div>
+
+        <div class="col-12" style="background-color: #FFE5C1; height: 25rem; margin-top: 2rem;">
+                
+        </div> 
+
+        <div class="col-12" style="margin-top: 2rem;"> 
+          <p style="text-align: left; margin-top: 2rem; font-size: 1.3rem;">Hi, I'm Beatriz Basa, a web developer with a passion for creating functional and intuitive web applications. I’m currently based in Urdaneta City, Pangasinan, and I’m set to graduate with a Bachelor of Science in Information Technology, Major in Web and Mobile Technologies from Pangasinan State University – Urdaneta Campus.</p>
+
+          <br><p class="semi-heading" >My Journey</p>
+
+          <p style="text-align: left; margin-top: 2rem; font-size: 1.1rem;">I started my journey into the tech world with a curiosity for how the web works and a desire to build solutions that make people's lives easier. Over the course of my academic career, I honed my skills in various programming languages and frameworks, focusing primarily on HTML, CSS, PHP, and SQL. I also explored Dart as I delved into app development, and worked extensively with popular frameworks like Laravel, Bootstrap, and Flutter.
+          <br><br>As a web developer, I’ve been privileged to work on a variety of projects, each presenting unique challenges and learning experiences. My work at the PNP Urdaneta City Police Station during my internship gave me the opportunity to lead the development of two critical systems: the WCPD & Investigation Information Management System and the Admin File Management System. These projects taught me not only the technical skills needed to build complex applications but also how to collaborate effectively with different departments and stakeholders.</p>
+
+          <br><p class="semi-heading">What I Do</p>
+
+          <p style="margin-top: 2rem; font-size: 1.1rem; margin-bottom: 2rem;">
+            <p style="text-align: left; margin-top: 2rem; font-size: 1.1rem;">In the world of web development, I specialize in full-stack development using Laravel and MySQL, where I build, maintain, and optimize web applications. I focus on: </p>
+            
+            <ul style="float: left; font-size: 1.1rem; text-align: left;margin-bottom: 7rem;">
+              <li>Developing intuitive user interfaces using HTML, CSS, and responsive frameworks like Bootstrap</li><br>
+              <li>Building and integrating relational databases to handle large amounts of data with MySQL and phpMyAdmin</li><br>
+              <li>Implementing core functionalities such as CRUD operations (Create, Read, Update, Delete) to make managing and organizing information seamless</li><br>
+              <li>Utilizing Git for version control, ensuring smooth collaboration and project management</li>
+            </ul> 
+          </p>
+          
+          
+          <br><br><p class="semi-heading">Projects That Define My Work</p>
+
+          <p style="text-align: left; margin-top: 2rem; font-size: 1.1rem;"> 
+          <b class="heading" style="font-size: 1.5rem;">WCPD & Investigation Information Management System</b>
+          <!-- <a href="" class="heading" style="font-size: 1.5rem; color: #F9977B; text-decoration: none; font-weight: bold;">WCPD & Investigation Information Management System</a> -->
+          <br><br>As the main developer, I led the creation of a web-based information management system for the PNP Urdaneta City Police Station. This system streamlined the process for investigators by providing an efficient way to manage and organize complaint forms. I developed crucial features, such as CRUD functionalities, and even integrated a feature for downloading forms as PDFs using Laravel's DomPDF package.
+          </p>
+          <a class="seclink-buttons link-buttons" id="linkbtn" href="/wiims" style="float: left;">See More...</a>
+
+          <br><br><p style="text-align: left; margin-top: 2rem; font-size: 1.1rem;"> 
+            <br><b class="heading" style="font-size: 1.5rem;">Admin File Management System</b>
+            <br><br>I directed the development of this system to help administrative officers easily monitor and upload police personnel files. Using Laravel and MySQL, I implemented a solution that not only made file management more accessible but also helped the station improve its internal workflow.
+          </p>
+          <a class="seclink-buttons link-buttons" id="linkbtn" href="/afms" style="float: left;">See More...</a>
+
+          <br><br> 
+          <p style="text-align: left; margin-top: 2rem; font-size: 1.1rem;"> 
+            <br><b class="heading" style="font-size: 1.5rem;">QualiFish – Capstone Project</b>
+            <br><br>For my capstone project, I took the lead in developing QualiFish, an inventory management system designed specifically for fish farmers and fish farm owners. The system includes prescriptive forecasting features, enabling users to predict inventory needs. I integrated SQL queries with Eloquent ORM and utilized Google Charts to create a user-friendly dashboard for visualizing data.
+          </p>
+          <a class="seclink-buttons link-buttons" id="linkbtn" href="/afms" style="float: left;">See More...</a>
+ 
+          <br><br>
+          <br><p class="semi-heading">Looking Ahead</p>
+
+          <p style="text-align: left; margin-top: 2rem; font-size: 1.1rem;">As I approach the completion of my degree, I’m excited about the future and eager to take on new challenges in the tech industry. I’m particularly interested in opportunities that allow me to continue improving my skills in web and software development, and I am always looking to work on projects that have a real-world impact.
+          <br><br>I am passionate about learning, solving problems, and delivering high-quality, efficient solutions. I believe that with my technical skills and experience, I can contribute significantly to any team I join, and I’m excited to see where this journey takes me. 
+        </p>
+      </div>
+      </div>
+    </div>
+ 
+
+    <div class="w3-container w3-center w3-padding-32" id="connect" style=" margin-top: 2rem;">  
+      <div class="row" id="otherprojectsdiv" style="padding: 0rem 4rem 0rem 4rem;">
+        <div class="col-12" >
+          <h1 style="font-weight: 800; color: #F9977B; float: left;">CONNECT</h1> 
+          <!-- <hr style="height: 1px; background-color: #161616;"> -->
+        </div>
+        <div class="row" > 
+          <div class="col-6">
+            <label for="exampleInputEmail1" class="form-label" style="float: left;">Name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <br>
+
+            <label for="exampleInputEmail1" class="form-label" style="float: left;">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            <br>
+            <label for="exampleInputEmail1" class="form-label" style="float: left;">Message</label>
+            <!-- <input type="textbox" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Leave a message!" max="5">  -->
+            <textarea class="form-control" placeholder="Leave a message!"></textarea>
+
+            <a class="seclink-buttons link-buttons" id="linkbtn" href="/about" style="float: left; margin-top: 2rem;">Submit</a>
+          </div>
+          <div class="col-6" style="margin-top: -2rem;">
+            <img src="/static/images/connect_part2.png" alt="Connect" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    {% include 'footer.html' %} 
+  </div>
+
+<script> 
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+ 
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>

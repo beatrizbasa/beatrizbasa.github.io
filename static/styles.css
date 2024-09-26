@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,h1,h2,h3,h4,h5,a {
+  font-family: "Work Sans", sans-serif !important;
+  font-optical-sizing: auto !important; 
+}
+
+* {
+box-sizing: border-box;
+}
+    
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+    
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+    
+    
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    } 
+
+    #introdiv{
+        padding: 0rem 1rem 0rem 1rem !important;
+    } 
+
+    #otherprojectsdiv{
+        padding: 0rem !important;
+    } 
+
+    .hi-im{
+      margin-top: 2rem !important;
+    }
+}
+    
+@media only screen and (min-width: 768px) {
+/* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.primlink-buttons{
+    background-color: #2F2E41;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: medium !important;
+    border: 2px solid #2F2E41 ;
+    width: auto; 
+    font-weight: 600 !important;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+.seclink-buttons{
+    background-color: white;
+    color: #2F2E41;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: medium !important;
+    border: 2px solid #2F2E41 ;
+    width: auto; 
+    font-weight: 600 !important;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .link-buttons:hover{
+    background-color: #F9977B !important;
+    border: none;
+    border: 2px solid  #2F2E41 !important;
+    color: #161616; 
+    /* box-shadow: inset 400px 0 0 0 #D80286;  */
+  }
+
+  .heading, nav{
+    font-family: 'Assistant', sans-serif !important; 
+  }
+
+  .proj-heading{
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    font-family: 'Assistant', sans-serif !important; 
+    color: #2F2E41 !important;
+  }
+
+  .semi-heading{
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    font-family: 'Assistant', sans-serif !important; 
+    text-align: left !important;
+    margin-top: 5rem; 
+    margin-bottom: 2rem;
+    color: #2F2E41 !important;
+  } 
+  
+  h1{
+    font-size: 3.5rem !important;
+    font-family: 'Assistant', sans-serif !important; 
+  } 
+
+  
+
+
+
+
+
+  
